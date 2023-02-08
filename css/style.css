@@ -56,6 +56,10 @@ img {
     color: white;
 }
 
+.sottile {
+    font-weight: lighter;
+}
+
 /* linguette*/
 
 .collocazione {
@@ -87,6 +91,14 @@ img {
     padding: .5rem;
 }
 
-.change:hover {
-    background-image: url(../img/1b.webp);
+.img-2 {
+    display: none;
+}
+
+.colonna:hover .img-2 {
+    display: block;
+}
+
+.colonna:hover .img-1 {
+    display: none;
 }
