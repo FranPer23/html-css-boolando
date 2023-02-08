@@ -1,0 +1,19 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* MAIN */
+.colonna {
+    width: 200px;
+    display: inline-block;
+    /* debug */
+    border: 1px solid black;
+  
+}
